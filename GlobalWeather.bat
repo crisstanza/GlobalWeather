@@ -18,7 +18,7 @@ set PROJECT_NAME=Global Weather
 
 set ARTIFACT_ID=GlobalWeather
 set GROUP_ID=io.github.crisstanza
-set VERSION=1.0.0-SNAPSHOT
+set VERSION=1.0.0
 
 set MAIN_PACKAGE=io.github.crisstanza.globalweather
 set MAIN_CLASS=Main
@@ -37,7 +37,7 @@ set INVALID_OPTION_MSG=
 	cls
 	echo.
 	echo         ษออออออออออออออออออออออออออออออออออออออป
-	echo         บ    %PROJECT_NAME% - %VERSION%   บ
+	echo         บ        %PROJECT_NAME% - %VERSION%        บ
 	echo         ศออออออออออออออออออออออออออออออออออออออผ
 	echo.
 	if not "%INVALID_OPTION_MSG%" == "" (

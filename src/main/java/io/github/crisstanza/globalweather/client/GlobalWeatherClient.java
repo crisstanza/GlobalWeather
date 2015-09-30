@@ -18,19 +18,20 @@ public final class GlobalWeatherClient {
 	public final void start() {
 		GlobalWeather service = new GlobalWeather(config.getUrlGlobalWeather());
 		GlobalWeatherSoap operation = service.getGlobalWeatherSoap();
-		GetWeather request = request();
 		{
+			String requestCitiesByCountry = countryName();
 			JChron chronCitiesByCountry = new JChron();
 			chronCitiesByCountry.start();
-			String resultCitiesByCountry = operation.getCitiesByCountry(countryName());
+			String resultCitiesByCountry = operation.getCitiesByCountry(requestCitiesByCountry);
 			chronCitiesByCountry.stop();
 			System.out.println(result(resultCitiesByCountry, chronCitiesByCountry.read()));
 		}
 		System.out.println();
 		{
+			GetWeather requestWeather = request();
 			JChron chronWeather = new JChron();
 			chronWeather.start();
-			String resultWeather = operation.getWeather(request.getCityName(), request.getCountryName());
+			String resultWeather = operation.getWeather(requestWeather.getCityName(), requestWeather.getCountryName());
 			chronWeather.stop();
 			System.out.println(result(resultWeather, chronWeather.read()));
 		}
