@@ -1,0 +1,12 @@
+
+     ============================================
+     =         Projeto "Global Weather"         =
+     ============================================
+
+
+OBJETIVO: Acesso ao web service "Global Weather".
+
+
+--
+
+Criado por Cris Stanza, 30-Set-2015.

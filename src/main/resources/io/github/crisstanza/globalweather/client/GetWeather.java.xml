@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<GetWeather xmlns="http://www.webserviceX.NET">
+	<CityName>Porto Alegre</CityName>
+	<CountryName>Brazil</CountryName>
+</GetWeather>
