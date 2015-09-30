@@ -24,7 +24,7 @@ set MAIN_PACKAGE=io.github.crisstanza.globalweather
 set MAIN_CLASS=Main
 
 set WSDL_1=http://www.webservicex.net/globalweather.asmx?WSDL
-set WSDL_MAX=1;
+set WSDL_MAX=1
 
 set CP=.
 set CP=%CP%;%USERPROFILE%\.m2\repository\io\github\crisstanza\jchron\1.0\jchron-1.0.jar
