@@ -11,7 +11,7 @@ SetLocal EnableDelayedExpansion
 REM
 REM Command line main menu. To edit this file, use encoding DOS (CP 437).
 REM
-REM Author: Cristiano S. Neves, 30-Sep-2015
+REM Author: Cris Stanza, 30-Sep-2015
 REM
 
 set PROJECT_NAME=Global Weather
@@ -36,9 +36,9 @@ set INVALID_OPTION_MSG=
 
 	cls
 	echo.
-	echo         ษออออออออออออออออออออออออออออออออออออออป
-	echo         บ        %PROJECT_NAME% - %VERSION%        บ
-	echo         ศออออออออออออออออออออออออออออออออออออออผ
+	echo         รรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยป
+	echo         ยบ        %PROJECT_NAME% - %VERSION%        ยบ
+	echo         รรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรรยผ
 	echo.
 	if not "%INVALID_OPTION_MSG%" == "" (
 		color %COLOR_ERROR%
@@ -52,7 +52,7 @@ set INVALID_OPTION_MSG=
 	)
 	echo.
 	echo   Maven options:
-	echo   ฤฤฤฤฤฤฤฤฤฤฤฤฤ
+	echo   รรรรรรรรรรรรร
 	echo.
 	echo     [c] Clean       [i] Install   [k] Install (skip tests)
 	echo     [s] Source      [t] Test      [p] Dependency tree
@@ -62,13 +62,13 @@ set INVALID_OPTION_MSG=
 	echo.
 	echo.
 	echo   WSImport options:
-	echo   ฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤฤ
+	echo   รรรรรรรรรรรรรรรร
 	echo.
 	echo     [g] Generate    [d] Delete
 	echo.
 	echo.
 	echo   Native options:
-	echo   ฤฤฤฤฤฤฤฤฤฤฤฤฤฤ
+	echo   รรรรรรรรรรรรรร
 	echo.
 	echo     [1] Compile     [2] Run           [3] Clean
 	echo     [4] Release     [5] Zip release   [6] Clean release
